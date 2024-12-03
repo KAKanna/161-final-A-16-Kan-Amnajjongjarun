@@ -4,8 +4,18 @@ using UnityEngine;
 
 public class Spell : MonoBehaviour
 {
-    public virtual void cast()
+    public virtual void Cast()
     {
 
+    }
+    public void Cast(string spellName)
+    {
+        spellName = "";
+    }
+
+    public void Cast(string spellName, int spellPower)
+    {
+        spellName = "";
+        spellPower = 0;
     }
 }
