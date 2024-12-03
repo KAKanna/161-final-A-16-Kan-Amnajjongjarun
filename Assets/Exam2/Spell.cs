@@ -8,14 +8,14 @@ public class Spell : MonoBehaviour
     {
 
     }
-    public void Cast(string spellName)
+    public void Cast(string Name)
     {
-        spellName = "";
+        Name = "";
     }
 
-    public void Cast(string spellName, int spellPower)
+    public void Cast(string Name, int Power)
     {
-        spellName = "";
-        spellPower = 0;
+        Name = "";
+        Power = 0;
     }
 }
